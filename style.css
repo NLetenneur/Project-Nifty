@@ -1,6 +1,7 @@
 body {
-    background-color: #E8E8E8;
+    background-color: #8b8b8b;
     color: #000000;
+    font-size: 0;
 }
 
 header {
@@ -26,15 +27,22 @@ section {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    padding: 20 10 20 10;
+    background-color: #E8E8E8;
 }
 h1 {
     color: #388e3c;
     text-align: center;
+    font-size: 30px;
 }
-img {
+#Nifty {
     display: block;
     max-width: 100%;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 0 auto;
   }
+p {
+    font-size: 20px;
+    margin: auto 30px auto 30px;
+    text-justify: distribute;
+}
