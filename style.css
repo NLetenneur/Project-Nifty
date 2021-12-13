@@ -7,7 +7,6 @@ body {
 header {
     background-color: #606060;
     color: #8bc34a;
-    font-size: 30px;
     width: 80%;
     height: 150px;
     margin-left: auto;
@@ -16,12 +15,13 @@ header {
 .frise {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
-.liens {
-    display: flex;
-    justify-content: space-between;
-    margin: 45px 10px 10px 10px;
-    align-items: flex-end;
+p.liens {
+    margin: 30px auto 10px auto;
+    font-size: 40px ;
+    font-weight: bold;
+    text-align: center ;
 }
 section {
     width: 80%;
