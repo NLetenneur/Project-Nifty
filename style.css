@@ -17,7 +17,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-p.liens {
+.liens {
     margin: 30px auto 10px auto;
     font-size: 40px ;
     font-weight: bold;
