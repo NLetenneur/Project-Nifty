@@ -12,16 +12,26 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
+footer {
+    background-color: #606060;
+    color: #8bc34a;
+    width: 80%;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;}
 .frise {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 .liens {
-    margin: 30px auto 10px auto;
-    font-size: 40px ;
-    font-weight: bold;
-    text-align: center ;
+    font-size: 15px ;
+    flex-grow: 2;
+}
+.copyrights {
+    font-size: 15px ;
+    flex-grow: 1;
 }
 section {
     width: 80%;
