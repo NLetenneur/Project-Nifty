@@ -5,12 +5,16 @@ body {
 }
 
 header {
-    background-color: #606060;
-    color: #8bc34a;
     width: 80%;
     height: 150px;
     margin-left: auto;
     margin-right: auto;
+    background-image: url("Images\Header.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.header {
+    height: 150px;
 }
 footer {
     background-color: #606060;
@@ -19,7 +23,12 @@ footer {
     height: 150px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;}
+    padding-top: 10px;
+    display: flex;
+}
+a.liens {
+    color: #8bc34a;
+}
 .frise {
     display: flex;
     justify-content: space-between;
@@ -27,20 +36,20 @@ footer {
 }
 .liens {
     font-size: 15px ;
-    flex-grow: 2;
+    flex-basis: 50%;
+    font-size: 20px;
 }
 .copyrights {
     font-size: 15px ;
-    flex-grow: 1;
+    flex-basis: 50%;
 }
 section {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px 0 20px 0;
     background-color: #E8E8E8;
 }
-h1 {
+h2 {
     color: #388e3c;
     text-align: center;
     font-size: 30px;
