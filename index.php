@@ -10,7 +10,7 @@
     <?php include('header.php'); ?>
         <section>
             <!--Titre-->
-            <h1>WHO'S NIFTY?</h1><br>
+            <h2>WHO'S NIFTY?</h2><br>
             <!--Grande image de Nifty-->
             <img id="Nifty" src="Images/Nifty géant.png" alt="Very big Nifty">
             <!--Historique (texte)-->
